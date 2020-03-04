@@ -1,0 +1,117 @@
+/* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #060AB2;
+}
+*/
+
+@font-face {
+  font-family: SingelFont;
+  src: url(singelfont.otf);
+}
+
+.Alphabet {
+  height: 215px;
+  width: 170px;
+  position: relative;
+  margin: 25px;
+  left: 112px;
+  bottom: 40px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+  transform: scale(1);
+}
+
+.Alphabet:active{
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
+.AlphabetImage {
+  height: 215px;
+  width: 170px;
+  position: relative;
+  margin: 25px;
+  bottom: 40px;
+  left: 120px;
+  border: 15px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+  transform: scale(1);
+}
+
+.AlphabetImage:active{
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
+section{
+  background-color: plum;
+  background-size: cover;
+  padding: 50px;
+  width: 93%;
+  position: relative;
+}
+
+h1{
+  font-family: "Bradley Hand", cursive;
+  color: lightcoral;
+}
+
+.container1{
+  width: 1375px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 20px;
+  background-color: powderblue;
+  background-size: cover;
+  margin-right: 20px
+}
+
+.container1 h1{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 6px;
+}
+
+.container2{
+  width: 1375px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 50px;
+  background-color: powderblue;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.container2 h1{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+}
+
+
+.topBar{
+  width: 1385px;
+  height: 80px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.topBar h1{
+  text-align: center;
+  color: black;
+  font-size: 45px;
+  font-family: "SingelFont";
+  position: relative;
+  bottom: 20px;
+}
